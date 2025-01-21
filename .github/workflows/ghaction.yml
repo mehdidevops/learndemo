@@ -1,0 +1,11 @@
+name: learn-github-actions
+
+on: [workflow-dispatch]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Run a oneline command'
+        run: echo 'Hello from GHaction'
+        
